@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jahanzaib.miwok.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numbersList"
+        style="@style/fontStyles"
+        android:text="Numbers"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/familyMembersList"
+        style="@style/fontStyles"
+        android:background="@android:color/holo_green_dark"
+        android:text="Family Members"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorsList"
+        style="@style/fontStyles"
+        android:background="@android:color/holo_purple"
+        android:text="Colors"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phrasesList"
+        style="@style/fontStyles"
+        android:background="@android:color/holo_blue_light"
+        android:text="Phrases"/>
+
+</LinearLayout>
